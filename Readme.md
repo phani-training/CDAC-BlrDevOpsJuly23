@@ -95,4 +95,14 @@ Create a Java App that connects to the MySQL database available in the container
 docker build -t java-app
 docker run --name myapp java-app
 ```
-- t is the flat that tells the docker to allocate virtual terminal within the container to start the application and view the results. 
+- t is the flat that tells the docker to allocate virtual terminal within the container to start the application and view the results.
+- 
+
+### Jenkins
+#### How to install and run the JENKINS to build a simple Java Application.
+1. Download the JDK 8.0 or later, Set the Environment variable like JAVA_HOME, JRE_HOME and Path.
+2. Download the Jenkins from the Home Website.
+3. During the Installation, the wizard asks for the JRE Location which u could provide
+4. U could optionally set the port no from which the JENKINS service be availed.
+5. U can login to the Jenkins Application using secret password provided by the instalation setup. Open the Jenkins app from the browser and use the following URL: http://localhost:9000/
+6. U can provide UR own user name and get the Preset password available in UR local machine at C:\ProgramData\Jenkins.jenkins\secrets\initialAdminPassword. After logging it, U could reset the password as per UR requirements
