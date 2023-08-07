@@ -222,11 +222,11 @@ Apps->Binary libs->Guest OS->Hypervisor->Host OS->Host hardware
 - application virtualization, Network Virtualization, Desktop, storage, server and data virtualization. 
 
 
-Examples of Cloud
-AWS:
-EC2: Elastic Compute Cloud is a computing service which is a virtual computer that runs on cloud. EC2 is infrastructure as a Service. 
-EBS: Elastic Bean Stalk: used for hosting web apps. It is a managed service for web apps, its a preconfigured EC2 instance that directly takes up UR application code and Env. configs and use it automatically. It a Platform as a Service.  
-S3: Amazon S3(Simple Storage Service) its a high speed, low cost scalable storage service provided by AWS. U can store objects upto 5 TB. Stores the data in the form of BUCKETS. Each Bucket name is unique across S3. 
-Amazon Cloud Watch: Services for monitoring and observing resoruces at real time built in for DevOps engineers, IT managers, Developers. It provides users with data and actionaable insights to monitor respective apps, simulate data changes, in the form of logs, metrics, events and also provide view of AwS resouces, apps and services that run within AWS. 
-EKS: Elastic Kubernetes Services that is fully managed service that can allow to run Kubernetes on AWS. 
+#### Examples of Cloud
+1. AWS:
+- EC2: Elastic Compute Cloud is a computing service which is a virtual computer that runs on cloud. EC2 is infrastructure as a Service. 
+- EBS: Elastic Bean Stalk: used for hosting web apps. It is a managed service for web apps, its a preconfigured EC2 instance that directly takes up UR application code and Env. configs and use it automatically. It a Platform as a Service.  
+- S3: Amazon S3(Simple Storage Service) its a high speed, low cost scalable storage service provided by AWS. U can store objects upto 5 TB. Stores the data in the form of BUCKETS. Each Bucket name is unique across S3. 
+- Amazon Cloud Watch: Services for monitoring and observing resoruces at real time built in for DevOps engineers, IT managers, Developers. It provides users with data and actionaable insights to monitor respective apps, simulate data changes, in the form of logs, metrics, events and also provide view of AwS resouces, apps and services that run within AWS. 
+- EKS: Elastic Kubernetes Services that is fully managed service that can allow to run Kubernetes on AWS. 
 
