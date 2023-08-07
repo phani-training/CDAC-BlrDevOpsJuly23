@@ -167,3 +167,66 @@ H/5 * * * *
 
 https://youtube.com/watch?v=X48VuDVv0do&feature=shares
 U can view this tutorial for further reference. 
+
+### Cloud Computing
+- Cloud Computing refers to an ability of a system to store the data or applications on a remote servers, process data or applications from the servers and access data via internetl. 
+- Cloud Computing provides scalability, cost-effectiveness and security to organizations to manage their IT Operations. 
+- It works on Pay-On-Use basis for individuals and organizations. It is an on-demand availability of the System resources and computing power without active management by the User. 
+
+#### Examples
+1. Cloud based Virtual Desktops: These help the users access their systems and applications by using any device from anywhere. Examples are AWS, VM ware, Horizon Cloud and Virtual Windows of MS.
+2. Cloud Backup and Cloud Storage: Cloud storage provides safe and scalable storage options for organizations to store and provides a backup of the data for a stable environment without worry of loss or data corruption and is well managed by professional Engineers
+3. Infrastructure-as-a-Service(IaaS): It helps businesses to scale their computer resources up and down whenever needed without any requirement of capital expenditure on physical infrastructure. Examples of IaaS providers are AWS, Google Cloud and Microsoft Azure. 
+4. Software-as-a-Service(SaaS): Users get a centralized data and applications hosted in cloud, rather than installing and running them on local devices. Examples of SaaS are SalesForce, DropBox, MS Office 365 and many more. 
+5. Platform-as-a-Service(PaaS): They are used to build apps, deploy and manage the real time apps that they develop and host it in cloud. Examples of PaaS service providers are Google App Engine, Microsoft Azure etc.   
+
+#### Types of cloud computing:
+- public cloud computing:
+    - Easily allowing accessibility to systems and services to its clients and users. IBM, Google, Amazon, MS are some of the popular public cloud service provides. They are well suited for Small enterprises which can start their businesses without large upfront investments by completely relying on the Public infrastructure for their IT needs. 
+    - High Scalability, Cost reduction, reliability and a quick Disaster recovery. 
+    - Disadvantages include Loss of control over the data, data security and privacy, limited visibility and unpredictable Cost.
+
+- Private cloud Computing. 
+    - Private clouds work on private infrastructure where some part of the setup is owned by the end users. This will help the users to have dynamic provisions of computer resources. 
+    - There could be schemes like managing the cloud and proportionally billing of the different departments or sections of an Large Enterprise. Examples are HP Data Centers, Elastic-Cloud of AWS and Microsoft. 
+    - Customer info protection, safe disaster management systems like system monitoring and maintenance, uptime services and data replications and with large support of standard operating procedures and operations. 
+    - Disadvantages will be restricted area of access, experts to handle private clouds in your environment will be costly. 
+- Hybrid Cloud Computing:
+    - A hybrid cloud is a heterogenous Distributed system formed by combining facilities of the public cloud as well as the private cloud. 
+    - As private clouds are within the environment, an immediate scale on demand and handling peak loads is difficult. Here Public clouds can help us. So a mix of both private and public is called as Hybrid Model. 
+    - Cost, Speed and security. 
+    - Businesses lack the internal knowledge required to create such hybrid environments, managing the security is more challenging as different levels of access and security considerations may apply for different environments. Managing the hybrid cloud may be difficult as new PaaS or any other infrastructure needs to be integrated and managed. 
+- Community Cloud Computing.
+    - Distributed Systems that are created by integrating the services of different clouds to address the specific needs of an industry or a business sector. 
+    - Infrastructure is shared b/w the organizations that have shared concerns or tasks. A 3rd party will manage the cloud.
+    - Cost effectiveness as the cloud is shared by numerous organizations and community. 
+    - It is adapter and scalable as it works with every user and users can alter their data and usability according to their needs and requirements.
+    - Not all businesses are willing to share the resources. It is difficult for the organizations to share the duties. 
+    - Media industry can come up with content generations with extended ecosystems with its partners. 
+    - Health industry : community clouds can share the information and knowledge on the the global level with sensitive data in the private infrastructure. 
+    - Scientific research: Organizations with common interests in science do share a large distributed infrastrucure for scientific computing.
+    ### Cloud Computing Apps:
+    - Cloud computing uses servers, storages and network hypervisors to manage all the infrastructure required for managing the software. 
+    - Various tools are available to manage the services of the cloud. 
+    - Popular Deployment software are available to deploy and combine the Apps over cloud.  
+    - Virtualization of cloud, Software and hardware are provided by prominent cloud service vendors: 
+        - AWS: EC2(Elastic Cloud Compute) and S3: for Databases
+        - Azure: MS cloud environment that provides Computing services, Data Servics using Azure SQL, Active Directory Services and network services. It also provides CI/CD feature and tools to maintain Agile Development tasks. 
+
+### Virtualization of cloud computing and types
+- It is a technique on how to seperate a service from the underlying physical delivery of that service, It creates a virtual version of the computer hardware using a specialized software.
+- One of the most cost-effective, hardware reducing and energy saving techniques used by cloud providers. It allows sharing of single physical instance of a resource or an application among multiple consumers at a time. 
+- Virtualization is practically implemented in IaaS as it plays a fundamental role in efficiently create such infra models. 
+Apps->Binary libs->Guest OS->Hypervisor->Host OS->Host hardware
+
+- application virtualization, Network Virtualization, Desktop, storage, server and data virtualization. 
+
+
+Examples of Cloud
+AWS:
+EC2: Elastic Compute Cloud is a computing service which is a virtual computer that runs on cloud. EC2 is infrastructure as a Service. 
+EBS: Elastic Bean Stalk: used for hosting web apps. It is a managed service for web apps, its a preconfigured EC2 instance that directly takes up UR application code and Env. configs and use it automatically. It a Platform as a Service.  
+S3: Amazon S3(Simple Storage Service) its a high speed, low cost scalable storage service provided by AWS. U can store objects upto 5 TB. Stores the data in the form of BUCKETS. Each Bucket name is unique across S3. 
+Amazon Cloud Watch: Services for monitoring and observing resoruces at real time built in for DevOps engineers, IT managers, Developers. It provides users with data and actionaable insights to monitor respective apps, simulate data changes, in the form of logs, metrics, events and also provide view of AwS resouces, apps and services that run within AWS. 
+EKS: Elastic Kubernetes Services that is fully managed service that can allow to run Kubernetes on AWS. 
+
